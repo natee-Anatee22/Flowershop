@@ -1,0 +1,129 @@
+@media { 
+    body {
+            font-family: 'Nunito', sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #d81b60;
+            margin-bottom: 20px;
+        }
+
+        .btn {  
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px;
+            background-color: #d81b60;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .btn:hover {
+            background-color: #c2185b;
+        }
+
+        .qr-code {
+            margin: 20px 0;
+        }
+
+        .qr-code img {
+            max-width: 200px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+
+    header {
+        background-color: #f8bbd0;
+        padding: 20px;
+        border-bottom: 4px solid #f06292;
+    }
+
+    header nav a {
+        color: #d81b60;
+        text-decoration: purple;
+        margin: 0 15px;
+        font-weight: bold;
+    }
+
+    header nav a:hover {
+        text-decoration: underline;
+    }
+
+    .hero {
+        background-image: url('https://www.dplusguide.com/wp-content/uploads/2014/10/KUJU-FLOWER-PARK9.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: white;
+    }
+
+    .hero h1 {
+        font-size: 3em;
+    }
+
+    .hero p {
+        font-size: 1.5em;
+        color: #661191; 
+        margin-top: 10px;
+    }
+
+    .products {
+        padding: 20px;
+    }
+
+    .product {
+        background-color: #ffffff;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin: 20px;
+        padding: 20px;
+        display: inline-block;
+        width: 300px;
+        text-align: center;
+    }
+
+    .product img {
+        max-width: 100%;
+        border-radius: 8px;
+        margin-bottom: 10px;
+    }
+
+    .product h3 {
+        color: #d81b60;
+    }
+
+    footer {
+        background-color: #f8bbd0;
+        color: #d81b60;
+        padding: 10px;
+        border-top: 4px solid #f06292;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    h2:hover {
+        background-color: lightpink;
+        transition: background-color 1s;
+    }
+
+}

@@ -10,3 +10,7 @@
   "keywords": [],
   "description": ""
 }
+"scripts": {
+  "start": "node app.js" 
+}
+
